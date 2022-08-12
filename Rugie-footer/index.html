@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="angular.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+
+    <footer>
+        <!-- this is the main enclosure of the footer -->
+        <div class="head-footer">
+            <!-- this is for the features in the support section -->
+            <div class="Support" id="support">
+                <h1>Support</h1>
+                <ul>
+                    <li>Help</li>
+                    <li>Deliveries</li>
+                    <li>Cancellation</li>
+                </ul>
+            </div>
+            <!-- this is for the signup section -->
+            <div class="sign-up">
+                <h1>Sign Up for Recent Blogs and Offers</h1>
+                <form name="form">
+                    <input type="email" ng-model="email" name="email" rows="5" cols="120" placeholder="Your email Address" required/>
+                    <button type="submit"
+                      ng-disabled="form.$invalid"><i class='fas fa-location-arrow'>&#xf124;</i>
+                    </button>
+              </form>
+              
+            </div>
+            <!-- this is for the features in the policies section -->
+            <div class="Policies" id="policies">
+                <h1>Policies</h1>
+                <ul>
+                    <li>Facilities</li>
+                    <li>Privacy</li>
+                    <li>Terms & Conditions</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

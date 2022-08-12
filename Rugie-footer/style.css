@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.head-footer{
+    display: flex;
+    padding: 5rem;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+}
+.Support{
+    justify-content: start;
+}
+.Support>ul{
+    list-style-type: none;
+    align-self: start;
+}
+.Support>h1{
+    font-size: 1.5rem;
+}
+
+.Policies>ul{
+    list-style-type: none;
+}
+.Policies>h1{
+    font-size: 1.5rem;
+    text-align: start;
+}
+.sign-up>input{
+    background-color: hsl(var(--hue-color), 73%, 96%);
+    align-items: center;
+    width: 150px;
+    height: 300px;
+}
+.sign-up>h1{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px){
+    .Support{
+        
+    }
+}
